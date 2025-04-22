@@ -49,17 +49,17 @@
         </li>
 
         <li>
-        <fieldset>
-          <legend>Opções de Resposta</legend>
-          <input type="checkbox" id="respostaEmail" name="resposta" value="email">
-          <label for="respostaEmail">E-Mail</label>
-          
-          <input type="checkbox" id="respostaTelefone" name="resposta" value="telefone">
-          <label for="respostaTelefone">Telefone</label>
-        </fieldset><br>
+          <fieldset required>
+            <legend>Opções de Resposta</legend>
+            <input type="radio" id="respostaEmail" name="resposta" value="email" required>
+            <label for="respostaEmail">E-Mail</label>
+
+            <input type="radio" id="respostaTelefone" name="resposta" value="telefone">
+            <label for="respostaTelefone">Telefone</label>
+          </fieldset><br>
         </li>
         <li>
-        <button type="submit">Enviar</button>
+          <button type="submit">Enviar</button>
         </li>
       </ul>
     </form>
